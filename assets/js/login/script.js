@@ -10,8 +10,7 @@ btnLogin.addEventListener('click', () =>{
   }
 
   if(inputlogin.value === 'bordelessUSJT' && passwordLogin.value === 'bordeless@'){
-    alert('Acesso liberado!!')
-    // btnLogin.href = 'caminho...'
+    btnLogin.href = './user.html'
   }else{
     check.innerHTML = 'Usuário inválido'
   }
