@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="assets/img/bordeless.ico" type="image/x-icon">
-  <link rel="stylesheet" href="assets/scss/login/bundle.css">
-  <title>Login</title>
+  <link rel="stylesheet" href="assets/scss/register/bundle.css">
+  <title>Criar Conta </title>
 
 </head>
 
@@ -17,31 +17,39 @@
       <img src="assets/img/loading.gif" alt="">
     </div>
   </div>
-  <main class="main-login">
-    <div class="main-login__wrapper">
-      <a class="main-login__wrapper-anchor" href="home.html"><i class="fas fa-angle-left"></i></a>
-      <div class="main-login__wrapper__authentication">
-        <h1 class="main-login__wrapper__authentication__title">Login</h1>
-        <div class="main-login__wrapper__authentication__user">
-          <label class="main-login__wrapper__authentication__user-label" for="name"><i class="fas fa-user"></i></label>
-          <input class="main-login__wrapper__authentication__user-input" type="text" placeholder="Usuário">
+  <main class="main-register">
+    <div class="main-register__wrapper">
+      <a class="main-register__wrapper-anchor" href="login.html"><i class="fas fa-angle-left"></i></a>
+      <div class="main-register__wrapper__authentication">
+        <h1 class="main-register__wrapper__authentication__title">Criar Conta</h1>
+        <div class="main-register__wrapper__authentication__user">
+          <label class="main-register__wrapper__authentication__user-label" for="name"><i class="fas fa-user"></i></label>
+          <input class="main-register__wrapper__authentication__user-input" type="text" placeholder="Usuário">
         </div>
-        <div class="main-login__wrapper__authentication__password">
-          <label class="main-login__wrapper__authentication__password-label" for="name"><i
+        <div class="main-register__wrapper__authentication__email">
+          <label class="main-register__wrapper__authentication__email-label" for="name"><i class="fas fa-envelope"></i></label>
+          <input class="main-register__wrapper__authentication__email-input" type="text" placeholder="E-mail">
+        </div>
+        <div class="main-register__wrapper__authentication__password">
+          <label class="main-register__wrapper__authentication__password-label" for="name"><i
               class="fas fa-lock"></i></label>
-          <input class="main-login__wrapper__authentication__password-input" type="password" placeholder="Senha">
+          <input class="main-register__wrapper__authentication__password-input" type="password" placeholder="Senha">
+        </div>
+        <div class="main-register__wrapper__authentication__password-confirm">
+          <label class="main-register__wrapper__authentication__password-confirm-label" for="name"><i
+              class="fas fa-lock"></i></label>
+          <input class="main-register__wrapper__authentication__password-confirm-input" type="password" placeholder="Repita sua senha">
         </div>
         <p id="check"></p>
-        <a class="main-login__wrapper__authentication__acess" href="#">Login</a>
-        <a class="main-login__wrapper__authentication__createAccont" href="#">Criar Conta</a>
+        <a class="main-register__wrapper__authentication__acess" href="#">Criar Conta</a>
       </div>
     </div>
     </div>
   </main>
 
   <script src="https://kit.fontawesome.com/d5e65723a8.js" crossorigin="anonymous"></script>
-  <script src="assets/js/login/loading-login.js"></script>
-  <script src="assets/js/login/script.js"></script>
+  <script src="assets/js/register/loading-register.js"></script>
+  <script src="assets/js/register/script.js"></script>
 </body>
 
 </html>
