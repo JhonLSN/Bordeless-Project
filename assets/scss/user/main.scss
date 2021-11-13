@@ -1,6 +1,6 @@
 .main-user {
   width: 100%;
-  // display: none;
+  display: none;
 
   .main-user__wrapper {
     display: flex;
@@ -108,8 +108,8 @@
       }
 
       & #check {
-        color: #08024b;
-        margin-top: 10px;
+        color: red;
+        margin-top: 20px;
       }
 
       &__acess {
