@@ -12,5 +12,5 @@ btnResidence.addEventListener('click', () =>{
     check.innerHTML = 'Campos obrigatórios'
     return;
   }
-    alert('Agora foi!')
+    btnResidence.href = 'finish.html'
 });

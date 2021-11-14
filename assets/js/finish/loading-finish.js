@@ -1,4 +1,4 @@
-var mainUser = document.querySelector('.main-start')
+var mainUser = document.querySelector('.main-finish')
 var loadUser = document.querySelector('.load');
 
 // Determinar em quanto tempo 
