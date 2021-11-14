@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/img/bordeless.ico" type="image/x-icon">
+  <link rel="stylesheet" href="assets/scss/residence/bundle.css">
+  <title>Registrar Residência</title>
+</head>
+
+<body>
+  <div class="load">
+    <div class="load__wrapper">
+      <img src="assets/img/loading.gif" alt="">
+    </div>
+  </div>
+  <main class="main-residence">
+    <div class="main-residence__wrapper">
+      <a class="main-residence__wrapper-anchor" href="user.html"><i class="fas fa-angle-left"></i></a>
+      <div class="main-residence__wrapper__authentication">
+        <h1 class="main-residence__wrapper__authentication__title">Registrar<br>Residência</h1>
+        <div class="main-residence__wrapper__authentication__formulary">
+          <input class="main-residence__wrapper__authentication__formulary-cep" id="cep" type="text" placeholder="Cep" maxlength="8">
+          <input class="main-residence__wrapper__authentication__formulary-address" id="address" type="text" placeholder="Endereço">
+          <input class="main-residence__wrapper__authentication__formulary-number" id="number" type="text" placeholder="Número">
+          <input class="main-residence__wrapper__authentication__formulary-complement" id="complement" type="text" placeholder="Complemento">
+          <input class="main-residence__wrapper__authentication__formulary-city" id="city" type="text" placeholder="Cidade">
+          <input class="main-residence__wrapper__authentication__formulary-state" id="state" type="text" placeholder="Estado">
+        </div>
+        <p id="check"></p>
+        <a class="main-residence__wrapper__authentication__acess" href="#">Registrar</a>
+      </div>
+    </div>
+  </main>
+
+  <script src="https://kit.fontawesome.com/d5e65723a8.js" crossorigin="anonymous"></script>
+  <script src="assets/js/residence/script.js"></script>
+  <script src="assets/js/residence/api.js"></script>
+  <script src="assets/js/residence/loading-residence.js"></script>
+</body>
+
+</html>
