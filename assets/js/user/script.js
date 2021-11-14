@@ -33,8 +33,7 @@ btnUser.addEventListener('click', () => {
     return;
   }
 
-  alert('Sucesso!')
-  // btnUser.href = ''
+  btnUser.href = 'start.html'
 });
 
 
