@@ -6,7 +6,8 @@ const IconAddress = document.querySelector('.popUp__wrapper__box__navigation__li
 const PAddress = document.querySelector('.popUp__wrapper__box__navigation__list-2 p')
 const btnPanelAccont = document.querySelector('.popUp__wrapper__box__panel__accont')
 const btnPanelAddress = document.querySelector('.popUp__wrapper__box__panel__address')
-const btnExit = document.querySelector('.popUp__wrapper__box__navigation__list-4')
+const configExit = document.querySelector('.popUp__wrapper__box__navigation__list-4')
+const configEnter = document.querySelector('.main__wrapper__navigation__sec-two #list-01')
 
 btnAccont.addEventListener('click', () =>{
   btnPanelAddress.style.display = 'none'
@@ -30,6 +31,10 @@ btnAddress.addEventListener('click', () =>{
   PAccont.style.color = '#90e0ef'
 })
 
-btnExit.addEventListener('click', () =>{
+configExit.addEventListener('click', () =>{
   document.querySelector('.popUp').style.display = 'none'
+})
+
+configEnter.addEventListener('click', () =>{
+  document.querySelector('.popUp').style.display = 'block'
 })
