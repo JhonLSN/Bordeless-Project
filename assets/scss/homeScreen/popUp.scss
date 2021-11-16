@@ -39,7 +39,7 @@
               i {
                 color: #08024b;
                 transform: rotate(360deg);
-                transition: all ease .6s;
+                transition: all ease 0.6s;
               }
 
               p {
@@ -51,13 +51,13 @@
               color: #90e0ef;
               margin-right: 15px;
               font-size: 2rem;
-              transition: all ease .6s;
+              transition: all ease 0.6s;
             }
 
             & p {
               color: #90e0ef;
               font-size: 1.3rem;
-              transition: all ease .6s;
+              transition: all ease 0.6s;
             }
           }
 
@@ -72,7 +72,7 @@
               i {
                 color: #08024b;
                 transform: rotate(360deg);
-                transition: all ease .6s;
+                transition: all ease 0.6s;
               }
 
               p {
@@ -85,13 +85,13 @@
               margin-left: 4px;
               font-size: 2rem;
               margin-right: 22px;
-              transition: all ease .6s;
+              transition: all ease 0.6s;
             }
 
             & p {
               color: #90e0ef;
               font-size: 1.3rem;
-              transition: all ease .6s;
+              transition: all ease 0.6s;
             }
           }
 
@@ -106,7 +106,7 @@
               i {
                 color: #08024b;
                 transform: rotate(360deg);
-                transition: all ease .6s;
+                transition: all ease 0.6s;
               }
 
               p {
@@ -119,13 +119,13 @@
               margin-right: 19px;
               font-size: 2rem;
               margin-left: 3px;
-              transition: all ease .6s;
+              transition: all ease 0.6s;
             }
 
             & p {
               color: #90e0ef;
               font-size: 1.3rem;
-              transition: all ease .6s;
+              transition: all ease 0.6s;
             }
           }
 
@@ -140,7 +140,7 @@
               i {
                 color: #08024b;
                 transform: rotate(360deg);
-                transition: all ease .6s;
+                transition: all ease 0.6s;
               }
 
               p {
@@ -153,13 +153,13 @@
               margin-right: 17px;
               font-size: 2rem;
               margin-left: 2px;
-              transition: all ease .6s;
+              transition: all ease 0.6s;
             }
 
             & p {
               color: #90e0ef;
               font-size: 1.3rem;
-              transition: all ease .6s;
+              transition: all ease 0.6s;
             }
           }
 
@@ -174,7 +174,7 @@
               i {
                 color: #08024b;
                 transform: rotate(360deg);
-                transition: all ease .6s;
+                transition: all ease 0.6s;
               }
 
               p {
@@ -187,13 +187,13 @@
               margin-right: 17px;
               font-size: 2rem;
               margin-left: 2px;
-              transition: all ease .6s;
+              transition: all ease 0.6s;
             }
 
             & p {
               color: #90e0ef;
               font-size: 1.3rem;
-              transition: all ease .6s;
+              transition: all ease 0.6s;
             }
           }
         }
@@ -214,12 +214,12 @@
             padding-bottom: 20px;
             border-bottom: 1px solid #90e0ef;
 
-            & #p1{
+            & #p1 {
               color: #90e0ef;
               font-size: 1rem;
             }
 
-            & #p2{
+            & #p2 {
               color: #808080;
             }
           }
@@ -232,12 +232,12 @@
             padding-bottom: 20px;
             border-bottom: 1px solid #90e0ef;
 
-            & #p1{
+            & #p1 {
               color: #90e0ef;
               font-size: 1rem;
             }
 
-            & #p2{
+            & #p2 {
               color: #808080;
             }
           }
@@ -250,12 +250,12 @@
             padding-bottom: 20px;
             border-bottom: 1px solid #90e0ef;
 
-            & #p1{
+            & #p1 {
               color: #90e0ef;
               font-size: 1rem;
             }
 
-            & #p2{
+            & #p2 {
               color: #808080;
             }
           }
@@ -268,13 +268,33 @@
             padding-bottom: 20px;
             border-bottom: 1px solid #90e0ef;
 
-            & #p1{
+            & #p1 {
               color: #90e0ef;
               font-size: 1rem;
             }
 
-            & #p2{
+            & #p2 {
               color: #808080;
+            }
+          }
+        }
+
+        &__address {
+          height: 100%;
+
+          &-message {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+
+            & #p1 {
+              color: #8d8c8c;
+              font-size: 1rem;
+              margin-top: 10px;
+              width: 40%;
+              text-align: center;
             }
           }
         }
