@@ -95,12 +95,13 @@
             }
           }
 
-          &-4 {
+          &-3 {
             display: flex;
             align-items: center;
             margin-bottom: 10px;
             cursor: pointer;
             pointer-events: all;
+            text-decoration: none;
 
             &:hover {
               i {
@@ -129,7 +130,7 @@
             }
           }
 
-          &-5 {
+          &-4 {
             display: flex;
             align-items: center;
             margin-bottom: 10px;
