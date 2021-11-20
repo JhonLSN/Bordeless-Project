@@ -148,6 +148,11 @@ const popUpAccont = document.querySelector('.popUp__wrapper__box__navigation__li
 const popUpAddress = document.querySelector('.popUp__wrapper__box__navigation__list-2')
 const popUpHelp = document.querySelector('.popUp__wrapper__box__navigation__list-3')
 const popUpBack = document.querySelector('.popUp__wrapper__box__navigation__list-4')
+const popUpNavigationRow = document.querySelector('.popUp__wrapper__box__navigation')
+const popUpNavigationRowName = document.querySelector('.popUp__wrapper__box__panel__accont-name')
+const popUpNavigationRowPhone = document.querySelector('.popUp__wrapper__box__panel__accont-phone')
+const popUpNavigationRowEmail = document.querySelector('.popUp__wrapper__box__panel__accont-email')
+const popUpNavigationRowPassword = document.querySelector('.popUp__wrapper__box__panel__accont-password')
 
 
 btnDark.addEventListener('click', () => {
@@ -296,4 +301,33 @@ btnDark.addEventListener('click', () => {
   popUpAddress.classList.toggle('dark-mode')
   popUpHelp.classList.toggle('dark-mode')
   popUpBack.classList.toggle('dark-mode')
+  popUpNavigationRow.classList.toggle('dark-mode')
+  popUpNavigationRowName.classList.toggle('dark-mode')
+  popUpNavigationRowPhone.classList.toggle('dark-mode')
+  popUpNavigationRowEmail.classList.toggle('dark-mode')
+  popUpNavigationRowPassword.classList.toggle('dark-mode')
+
+  // Event 'click' Navigation PopUp
+  btnAccont.addEventListener('click', () =>{
+    btnPanelAddress.style.display = 'none'
+    btnPanelAccont.style.display = 'block'
+    btnAccont.style.pointerEvents = 'none'
+    btnAddress.style.pointerEvents = 'all'
+    IconAccont.style.color = '#90e0ef'
+    PAccont.style.color = '#90e0ef'
+    IconAddress.style.color = '#212529'
+    PAddress.style.color = '#212529'
+  })
+  
+  btnAddress.addEventListener('click', () =>{
+    btnPanelAddress.style.display = 'block'
+    btnPanelAccont.style.display = 'none'
+    btnAccont.style.pointerEvents = 'all'
+    btnAddress.style.pointerEvents = 'none'
+    IconAddress.style.color = '#90e0ef'
+    PAddress.style.color = '#90e0ef'
+    IconAccont.style.color = '#212529'
+    PAccont.style.color = '#212529'
+  })
+
 })
