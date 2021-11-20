@@ -24,6 +24,11 @@
       border-radius: 15px;
       transition: all ease 0.6s;
 
+      &.dark-mode{
+        background-color: #495057;
+        box-shadow: 0px 0px 10px 0px #212529;
+      }
+
       &__navigation {
         width: 30%;
         border-right: 1px solid #90e0ef;
@@ -39,6 +44,30 @@
             margin-bottom: 10px;
             cursor: pointer;
             pointer-events: all;
+
+            &.dark-mode{
+              &:hover{
+                i{
+                  color: #90e0ef;
+                  transition: all ease .6s;
+                }
+
+                p{
+                  color: #90e0ef;
+                  transition: all ease .6s;
+                }
+              }
+
+              & i {
+                color: #212529;
+                transition: all ease .6s;
+              }
+
+              & p {
+                color: #212529;
+                transition: all ease .6s;
+              }
+            }
 
             &:hover {
               i {
@@ -72,6 +101,30 @@
             margin-bottom: 10px;
             cursor: pointer;
             pointer-events: all;
+
+            &.dark-mode{
+              &:hover{
+                i{
+                  color: #90e0ef;
+                  transition: all ease .6s;
+                }
+
+                p{
+                  color: #90e0ef;
+                  transition: all ease .6s;
+                }
+              }
+
+              & i {
+                color: #212529;
+                transition: all ease .6s;
+              }
+
+              & p {
+                color: #212529;
+                transition: all ease .6s;
+              }
+            }
 
             &:hover {
               i {
@@ -108,6 +161,30 @@
             pointer-events: all;
             text-decoration: none;
 
+            &.dark-mode{
+              &:hover{
+                i{
+                  color: #90e0ef;
+                  transition: all ease .6s;
+                }
+
+                p{
+                  color: #90e0ef;
+                  transition: all ease .6s;
+                }
+              }
+
+              & i {
+                color: #212529;
+                transition: all ease .6s;
+              }
+
+              & p {
+                color: #212529;
+                transition: all ease .6s;
+              }
+            }
+
             &:hover {
               i {
                 color: #08024b;
@@ -141,6 +218,30 @@
             margin-bottom: 10px;
             cursor: pointer;
             pointer-events: all;
+
+            &.dark-mode{
+              &:hover{
+                i{
+                  color: #90e0ef;
+                  transition: all ease .6s;
+                }
+
+                p{
+                  color: #90e0ef;
+                  transition: all ease .6s;
+                }
+              }
+
+              & i {
+                color: #212529;
+                transition: all ease .6s;
+              }
+
+              & p {
+                color: #212529;
+                transition: all ease .6s;
+              }
+            }
 
             &:hover {
               i {

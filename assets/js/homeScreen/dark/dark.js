@@ -1,6 +1,10 @@
 const btnDark = document.querySelector('.dark')
 const btnGlow = document.querySelector('.glow')
 
+// Body
+
+const body = document.body
+
 // header
 const header = document.querySelector('.header__wrapper')
 const logo = document.querySelector('.header__wrapper__logo-name')
@@ -138,7 +142,18 @@ const abodeFavorOrlando4H2 = document.querySelector('.main__wrapper__abode__favo
 const abodeFavorOrlando4H3 = document.querySelector('.main__wrapper__abode__favorOrlando-04-description h3 span#bold')
 const abodeFavorOrlando4P = document.querySelector('.main__wrapper__abode__favorOrlando-04-description p span#bold')
 
+// PopUp
+const popUp = document.querySelector('.popUp__wrapper__box')
+const popUpAccont = document.querySelector('.popUp__wrapper__box__navigation__list-1')
+const popUpAddress = document.querySelector('.popUp__wrapper__box__navigation__list-2')
+const popUpHelp = document.querySelector('.popUp__wrapper__box__navigation__list-3')
+const popUpBack = document.querySelector('.popUp__wrapper__box__navigation__list-4')
+
+
 btnDark.addEventListener('click', () => {
+  // Body
+  body.classList.toggle('dark-mode')
+
   // Header Variables
   header.classList.toggle('dark-mode')
   logo.classList.toggle('dark-mode')
@@ -274,4 +289,11 @@ btnDark.addEventListener('click', () => {
   abodeFavorOrlando4H2.classList.toggle('dark-mode')
   abodeFavorOrlando4H3.classList.toggle('dark-mode')
   abodeFavorOrlando4P.classList.toggle('dark-mode')
+
+  //PopUp Variables
+  popUp.classList.toggle('dark-mode')
+  popUpAccont.classList.toggle('dark-mode')
+  popUpAddress.classList.toggle('dark-mode')
+  popUpHelp.classList.toggle('dark-mode')
+  popUpBack.classList.toggle('dark-mode')
 })

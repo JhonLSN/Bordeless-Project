@@ -104,15 +104,36 @@ body {
 	line-height: 1;
 	font-family: system-ui;
 	text-decoration: none;
+	transition: all ease .6s;
+
 	::-webkit-scrollbar-track {
 		background-color: #f4f4f4;
+		transition: all ease .6s;
 	}
 	::-webkit-scrollbar {
 		width: 6px;
 		background: #f4f4f4;
+		transition: all ease .6s;
 	}
 	::-webkit-scrollbar-thumb {
 		background: #90e0ef;
+		transition: all ease .6s;
+	}
+
+	&.dark-mode{
+		::-webkit-scrollbar-track {
+			background-color: #212529;
+			transition: all ease .6s;
+		}
+		::-webkit-scrollbar {
+			width: 6px;
+			background: #f4f4f4;
+			transition: all ease .6s;
+		}
+		::-webkit-scrollbar-thumb {
+			background: #90e0ef;
+			transition: all ease .6s;
+		}
 	}
 }
 ol,
