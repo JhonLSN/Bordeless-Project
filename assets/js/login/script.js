@@ -9,7 +9,7 @@ btnLogin.addEventListener('click', () =>{
     return;
   }
 
-  if(inputlogin.value === 'bordelessUSJT' && passwordLogin.value === 'bordeless@'){
+  if(inputlogin.value === 'boderlessUSJT' && passwordLogin.value === 'boderless@'){
     btnLogin.href = './user.html'
   }else{
     check.innerHTML = 'Usuário inválido'
