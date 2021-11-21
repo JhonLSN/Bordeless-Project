@@ -278,6 +278,7 @@
     &__chat {
       display: flex;
       flex-direction: column;
+      position: relative;
       width: 30%;
       background-color: #fff;
       box-shadow: 0px 0 8px 0 #b9b9b9;
@@ -292,11 +293,11 @@
         padding-bottom: 10px;
         border-bottom: 1px solid #dddddd;
         cursor: pointer;
-        transition: all ease .3s;
+        transition: all ease 0.3s;
 
-        &:hover{
+        &:hover {
           background-color: #f0f8ff;
-          transition: all ease .3s;
+          transition: all ease 0.3s;
         }
 
         &-photo {
@@ -355,11 +356,11 @@
 
           & i {
             color: #404040;
-            transition: all ease .2s;
-    
-            &:hover{
+            transition: all ease 0.2s;
+
+            &:hover {
               color: #d81919;
-              transition: all ease .2s;
+              transition: all ease 0.2s;
             }
           }
         }
@@ -372,11 +373,11 @@
         padding-bottom: 10px;
         border-bottom: 1px solid #dddddd;
         cursor: pointer;
-        transition: all ease .33s;
+        transition: all ease 0.33s;
 
-        &:hover{
+        &:hover {
           background-color: #f0f8ff;
-          transition: all ease .3s;
+          transition: all ease 0.3s;
         }
 
         &-photo {
@@ -435,12 +436,40 @@
 
           & i {
             color: #404040;
-            transition: all ease .2s;
-    
-            &:hover{
+            transition: all ease 0.2s;
+
+            &:hover {
               color: #d81919;
-              transition: all ease .2s;
+              transition: all ease 0.2s;
             }
+          }
+        }
+      }
+
+      & .new-chat {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        transform: scale(1);
+        cursor: pointer;
+        z-index: 1;
+        transition: all ease 0.3s;
+
+        &__wrapper {
+          height: 50px;
+          background: #90e0ef;
+          width: 50px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 30px;
+          border: 1px solid #90e0ef;
+          transition: all ease 0.6s;
+
+          & i {
+            font-size: 1.5rem;
+            color: #343232;
+            transition: all ease 0.6s;
           }
         }
       }
