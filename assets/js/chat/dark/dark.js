@@ -27,16 +27,19 @@ const navTextExit = document.querySelector('.main__wrapper__navigation__sec-two 
 // Chat
 const chatBackground = document.querySelector('.main__wrapper__chat')
 const chatSupportBox = document.querySelector('.main__wrapper__chat__support')
-const chatSupportPhoto = doucment.querySelector('.main__wrapper__chat__support-photo')
+const chatSupportPhoto = document.querySelector('.main__wrapper__chat__support-photo')
 const chatSupportName = document.querySelector('.main__wrapper__chat__support-information-name')
 const chatSupportStatus = document.querySelector('.main__wrapper__chat__support-information-text')
-const chatSupportTime = document.querySelector('.main__wrapper__chat__support-eraser')
+const chatSupportMessage = document.querySelector('.main__wrapper__chat__support-information-text-message')
+const chatSupportTime = document.querySelector('.main__wrapper__chat__support-eraser-time')
+const chatSupportEraser = document.querySelector('.main__wrapper__chat__support-eraser')
 const chatNewUserBox = document.querySelector('.main__wrapper__chat__user')
-const chatNewUserPhoto = doucment.querySelector('.main__wrapper__chat__user-photo')
+const chatNewUserPhoto = document.querySelector('.main__wrapper__chat__user-photo')
 const chatNewUserName = document.querySelector('.main__wrapper__chat__user-information-name')
 const chatNewUserStatus = document.querySelector('.main__wrapper__chat__user-information-text')
-const chatNewUserTime = document.querySelector('.main__wrapper__chat__user-eraser')
-
+const chatNewUserMessage = document.querySelector('.main__wrapper__chat__user-information-text-message')
+const chatNewUserTime = document.querySelector('.main__wrapper__chat__user-eraser-time')
+const chatNewUserEraser = document.querySelector('.main__wrapper__chat__user-eraser')
 
 // PopUp
 const popUp = document.querySelector('.popUp__wrapper__box')
@@ -75,7 +78,21 @@ btnDark.addEventListener('click', () => {
   navIconExit.classList.add('dark-mode')
   navTextExit.classList.add('dark-mode')
 
-  // 
+  // Chat Variables
+
+  chatBackground.classList.add('dark-mode')
+  chatSupportBox.classList.add('dark-mode')
+  chatSupportPhoto.classList.add('dark-mode')
+  chatSupportName.classList.add('dark-mode')
+  chatSupportStatus.classList.add('dark-mode')
+  chatSupportTime.classList.add('dark-mode')
+  chatSupportEraser.classList.add('.dark-mode')
+  chatNewUserBox.classList.add('dark-mode')
+  chatNewUserPhoto.classList.add('dark-mode')
+  chatNewUserName.classList.add('dark-mode')
+  chatNewUserStatus.classList.add('dark-mode')
+  chatNewUserTime.classList.add('dark-mode')
+  chatNewUserEraser.classList.add('.dark-mode')
 
   //PopUp Variables
   popUp.classList.add('dark-mode')
@@ -90,7 +107,7 @@ btnDark.addEventListener('click', () => {
   popUpNavigationRowPassword.classList.add('dark-mode')
 
   // Event 'click' Navigation PopUp
-  btnAccont.addEventListener('click', () =>{
+  btnAccont.addEventListener('click', () => {
     btnPanelAddress.style.display = 'none'
     btnPanelAccont.style.display = 'block'
     btnAccont.style.pointerEvents = 'none'
@@ -100,8 +117,8 @@ btnDark.addEventListener('click', () => {
     IconAddress.style.color = '#212529'
     PAddress.style.color = '#212529'
   })
-  
-  btnAddress.addEventListener('click', () =>{
+
+  btnAddress.addEventListener('click', () => {
     btnPanelAddress.style.display = 'block'
     btnPanelAccont.style.display = 'none'
     btnAccont.style.pointerEvents = 'all'
