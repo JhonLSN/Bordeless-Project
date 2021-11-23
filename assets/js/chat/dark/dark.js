@@ -33,9 +33,9 @@ const chatSupportStatus = document.querySelector('.main__wrapper__chat__support-
 const chatSupportTime = document.querySelector('.main__wrapper__chat__support-eraser')
 const chatNewUserBox = document.querySelector('.main__wrapper__chat__user')
 const chatNewUserPhoto = doucment.querySelector('.main__wrapper__chat__user-photo')
-const chatNewUserName = document.querySelector('.')
-const chatNewUserStatus = document.querySelector('.')
-const chatNewUserTime = document.querySelector('.')
+const chatNewUserName = document.querySelector('.main__wrapper__chat__user-information-name')
+const chatNewUserStatus = document.querySelector('.main__wrapper__chat__user-information-text')
+const chatNewUserTime = document.querySelector('.main__wrapper__chat__user-eraser')
 
 
 // PopUp
