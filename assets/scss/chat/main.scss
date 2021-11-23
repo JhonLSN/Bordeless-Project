@@ -605,13 +605,28 @@
           border: 1px solid #90e0ef;
           transition: all ease 0.6s;
 
+          &.dark-mode{
+            background: none;
+            border: 1px solid #90e0ef;
+            transition: all ease 0.6s;
+
+            i {
+              color: #90e0ef;
+              transition: all ease 0.6s;
+            }
+
+            &:hover{
+              i{
+                color: #212529;
+                transition: all ease 0.6s;
+              }
+            }
+          }
+
           &:hover {
             background: none;
             transition: all ease 0.6s;
             border: 1px solid #343232;
-
-            & i {
-            }
           }
 
           & i {
