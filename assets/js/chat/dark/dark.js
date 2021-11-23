@@ -40,6 +40,7 @@ const chatNewUserStatus = document.querySelector('.main__wrapper__chat__user-inf
 const chatNewUserMessage = document.querySelector('.main__wrapper__chat__user-information-text-message')
 const chatNewUserTime = document.querySelector('.main__wrapper__chat__user-eraser-time')
 const chatNewUserEraser = document.querySelector('.main__wrapper__chat__user-eraser')
+const chatIconNew = document.querySelector('.new-chat__wrapper')
 
 // PopUp
 const popUp = document.querySelector('.popUp__wrapper__box')
@@ -79,7 +80,6 @@ btnDark.addEventListener('click', () => {
   navTextExit.classList.add('dark-mode')
 
   // Chat Variables
-
   chatBackground.classList.add('dark-mode')
   chatSupportBox.classList.add('dark-mode')
   chatSupportPhoto.classList.add('dark-mode')
@@ -95,6 +95,7 @@ btnDark.addEventListener('click', () => {
   chatNewUserMessage.classList.add('dark-mode')
   chatNewUserTime.classList.add('dark-mode')
   chatNewUserEraser.classList.add('dark-mode')
+  chatIconNew.classList.add('dark-mode')
 
   //PopUp Variables
   popUp.classList.add('dark-mode')
