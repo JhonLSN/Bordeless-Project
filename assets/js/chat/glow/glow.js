@@ -22,6 +22,24 @@ btnGlow.addEventListener('click', () => {
   navIconExit.classList.remove('dark-mode')
   navTextExit.classList.remove('dark-mode')
 
+  // Chat Variables
+  chatBackground.classList.remove('dark-mode')
+  chatSupportBox.classList.remove('dark-mode')
+  chatSupportPhoto.classList.remove('dark-mode')
+  chatSupportName.classList.remove('dark-mode')
+  chatSupportStatus.classList.remove('dark-mode')
+  chatSupportMessage.classList.remove('dark-mode')
+  chatSupportTime.classList.remove('dark-mode')
+  chatSupportEraser.classList.remove('dark-mode')
+  chatNewUserBox.classList.remove('dark-mode')
+  chatNewUserPhoto.classList.remove('dark-mode')
+  chatNewUserName.classList.remove('dark-mode')
+  chatNewUserStatus.classList.remove('dark-mode')
+  chatNewUserMessage.classList.remove('dark-mode')
+  chatNewUserTime.classList.remove('dark-mode')
+  chatNewUserEraser.classList.remove('dark-mode')
+  chatIconNew.classList.remove('dark-mode')
+
   //PopUp Variables
   popUp.classList.remove('dark-mode')
   popUpAccont.classList.remove('dark-mode')
