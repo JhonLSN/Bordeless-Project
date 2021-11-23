@@ -85,14 +85,16 @@ btnDark.addEventListener('click', () => {
   chatSupportPhoto.classList.add('dark-mode')
   chatSupportName.classList.add('dark-mode')
   chatSupportStatus.classList.add('dark-mode')
+  chatSupportMessage.classList.add('dark-mode')
   chatSupportTime.classList.add('dark-mode')
-  chatSupportEraser.classList.add('.dark-mode')
+  chatSupportEraser.classList.add('dark-mode')
   chatNewUserBox.classList.add('dark-mode')
   chatNewUserPhoto.classList.add('dark-mode')
   chatNewUserName.classList.add('dark-mode')
   chatNewUserStatus.classList.add('dark-mode')
+  chatNewUserMessage.classList.add('dark-mode')
   chatNewUserTime.classList.add('dark-mode')
-  chatNewUserEraser.classList.add('.dark-mode')
+  chatNewUserEraser.classList.add('dark-mode')
 
   //PopUp Variables
   popUp.classList.add('dark-mode')

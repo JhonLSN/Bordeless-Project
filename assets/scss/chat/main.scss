@@ -393,7 +393,7 @@
               color: #404040;
               transition: all ease 0.6s;
 
-              &-messsage {
+              &.dark-mode {
                 color: #fff;
                 transition: all ease 0.6s;
               }
@@ -407,13 +407,27 @@
           align-items: center;
 
           &.dark-mode{
-            
+            & i{
+              color: #90e0ef;
+              transition: all ease 0.2s;
+  
+              &:hover {
+                color: #FFF;
+                transition: all ease 0.2s;
+              }
+            }
           }
 
           &-time {
             margin-bottom: 5px;
             font-size: 0.8rem;
             color: #404040;
+            transition: all ease 0.6s;
+
+            &.dark-mode{
+              color: #90e0ef;
+              transition: all ease 0.6s;
+            }
           }
 
           & i {
@@ -427,6 +441,7 @@
           }
         }
       }
+
       &__user {
         display: flex;
         align-items: center;
