@@ -1058,6 +1058,13 @@
         width: 66%;
         transition: all ease 0.6s;
 
+        &__ilustration {
+          & img {
+            width: 68%;
+            margin-left: 120px;
+          }
+        }
+
         &__support {
           &__navigation {
             &__status {
