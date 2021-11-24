@@ -642,9 +642,16 @@
       width: 65%;
       transition: all ease 0.6s;
 
-      &.dark-mode{
+      &.dark-mode {
         background-color: #495057;
         transition: all ease 0.6s;
+      }
+
+      &__ilustration {
+        & img {
+          width: 73%;
+          margin-left: 120px;
+        }
       }
 
       &__support {
