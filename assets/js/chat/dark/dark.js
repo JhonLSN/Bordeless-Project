@@ -42,7 +42,8 @@ const chatNewUserTime = document.querySelector('.main__wrapper__chat__user-erase
 const chatNewUserEraser = document.querySelector('.main__wrapper__chat__user-eraser')
 const chatIconNew = document.querySelector('.new-chat__wrapper')
 
-// Send
+// Send - Status
+const sendSupport = document.querySelector('.main__wrapper__send__support')
 const sendNavigation = document.querySelector('.main__wrapper__send__support__navigation')
 const sendPhoto = document.querySelector('.main__wrapper__send__support__navigation-photo')
 const sendNavName = document.querySelector('.main__wrapper__send__support__navigation__status-name')
@@ -54,6 +55,20 @@ const sendFooter = document.querySelector('.main__wrapper__send__support__footer
 const sendFooterIconSmile = document.querySelector('.smile-icon')
 const sendFooterIconPaperClip = document.querySelector('.paperclip-icon')
 const sendFooterIconSend = document.querySelector('.send-icon')
+
+// Send - New User
+const sendNewUser = document.querySelector('.main__wrapper__send__new-user')
+const sendNavigationNewUser = document.querySelector('.main__wrapper__send__new-user__navigation')
+const sendPhotoNewUser = document.querySelector('.main__wrapper__send__new-user__navigation-photo')
+const sendNavNameNewUser = document.querySelector('.main__wrapper__send__new-user__navigation__status-name')
+const sendStatusNewUser = document.querySelector('.main__wrapper__send__new-user__navigation__status-situation')
+const sendIconSearchNewUser = document.querySelector('.main__wrapper__send__new-user__navigation .search-icon')
+const sendIconEllipsisNewUser = document.querySelector('.main__wrapper__send__new-user__navigation .ellipsis-icon')
+const sendMessageBackgroundNewUser = document.querySelector('.main__wrapper__send__new-user__messege')
+const sendFooterNewUser = document.querySelector('.main__wrapper__send__new-user__footer')
+const sendFooterIconSmileNewUser = document.querySelector('.main__wrapper__send__new-user__footer .smile-icon')
+const sendFooterIconPaperClipNewUser = document.querySelector('.main__wrapper__send__new-user__footer .paperclip-icon')
+const sendFooterIconSendNewUser = document.querySelector('.main__wrapper__send__new-user__footer .send-icon')
 
 // PopUp
 const popUp = document.querySelector('.popUp__wrapper__box')
@@ -110,7 +125,7 @@ btnDark.addEventListener('click', () => {
   chatNewUserEraser.classList.add('dark-mode')
   chatIconNew.classList.add('dark-mode')
 
-  // Send 
+  // Send Variables
   sendNavigation.classList.add('dark-mode')
   sendPhoto.classList.add('dark-mode')
   sendNavName.classList.add('dark-mode')
@@ -122,6 +137,18 @@ btnDark.addEventListener('click', () => {
   sendFooterIconSmile.classList.add('dark-mode')
   sendFooterIconPaperClip.classList.add('dark-mode')
   sendFooterIconSend.classList.add('dark-mode')
+  sendNewUser.classList.add('dark-mode')
+  sendNavigationNewUser.classList.add('dark-mode')
+  sendPhotoNewUser.classList.add('dark-mode')
+  sendNavNameNewUser.classList.add('dark-mode')
+  sendStatusNewUser.classList.add('dark-mode')
+  sendIconSearchNewUser.classList.add('dark-mode')
+  sendIconEllipsisNewUser.classList.add('dark-mode')
+  sendMessageBackgroundNewUser.classList.add('dark-mode')
+  sendFooterNewUser.classList.add('dark-mode')
+  sendFooterIconSmileNewUser.classList.add('dark-mode')
+  sendFooterIconPaperClipNewUser.classList.add('dark-mode')
+  sendFooterIconSendNewUser.classList.add('dark-mode')
 
   //PopUp Variables
   popUp.classList.add('dark-mode')

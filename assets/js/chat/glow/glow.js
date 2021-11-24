@@ -52,6 +52,18 @@ btnGlow.addEventListener('click', () => {
   sendFooterIconSmile.classList.remove('dark-mode')
   sendFooterIconPaperClip.classList.remove('dark-mode')
   sendFooterIconSend.classList.remove('dark-mode')
+  sendNewUser.classList.remove('dark-mode')
+  sendNavigationNewUser.classList.remove('dark-mode')
+  sendPhotoNewUser.classList.remove('dark-mode')
+  sendNavNameNewUser.classList.remove('dark-mode')
+  sendStatusNewUser.classList.remove('dark-mode')
+  sendIconSearchNewUser.classList.remove('dark-mode')
+  sendIconEllipsisNewUser.classList.remove('dark-mode')
+  sendMessageBackgroundNewUser.classList.remove('dark-mode')
+  sendFooterNewUser.classList.remove('dark-mode')
+  sendFooterIconSmileNewUser.classList.remove('dark-mode')
+  sendFooterIconPaperClipNewUser.classList.remove('dark-mode')
+  sendFooterIconSendNewUser.classList.remove('dark-mode')
 
   //PopUp Variables
   popUp.classList.remove('dark-mode')
