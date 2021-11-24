@@ -43,6 +43,7 @@ const chatNewUserEraser = document.querySelector('.main__wrapper__chat__user-era
 const chatIconNew = document.querySelector('.new-chat__wrapper')
 
 // Send - Status
+const sendBackground = document.querySelector('.main__wrapper__send')
 const sendSupport = document.querySelector('.main__wrapper__send__support')
 const sendNavigation = document.querySelector('.main__wrapper__send__support__navigation')
 const sendPhoto = document.querySelector('.main__wrapper__send__support__navigation-photo')
@@ -126,6 +127,7 @@ btnDark.addEventListener('click', () => {
   chatIconNew.classList.add('dark-mode')
 
   // Send Variables
+  sendBackground.classList.add('dark-mode')
   sendNavigation.classList.add('dark-mode')
   sendPhoto.classList.add('dark-mode')
   sendNavName.classList.add('dark-mode')

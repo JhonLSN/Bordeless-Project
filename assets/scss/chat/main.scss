@@ -642,6 +642,11 @@
       width: 65%;
       transition: all ease 0.6s;
 
+      &.dark-mode{
+        background-color: #495057;
+        transition: all ease 0.6s;
+      }
+
       &__support {
         display: none;
         &__navigation {
@@ -832,6 +837,7 @@
       }
 
       &__new-user {
+        display: none;
         &__navigation {
           display: flex;
           align-items: center;
@@ -894,7 +900,7 @@
               transition: all ease 0.6s;
 
               &.dark-mode {
-                color: #90e0ef;
+                color: #ef9090;
                 transition: all ease 0.6s;
               }
             }

@@ -41,6 +41,7 @@ btnGlow.addEventListener('click', () => {
   chatIconNew.classList.remove('dark-mode')
 
   // Send Variables
+  sendBackground.classList.remove('dark-mode')
   sendNavigation.classList.remove('dark-mode')
   sendPhoto.classList.remove('dark-mode')
   sendNavName.classList.remove('dark-mode')
