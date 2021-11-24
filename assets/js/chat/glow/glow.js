@@ -47,6 +47,7 @@ btnGlow.addEventListener('click', () => {
   sendStatus.classList.remove('dark-mode')
   sendIconSearch.classList.remove('dark-mode')
   sendIconEllipsis.classList.remove('dark-mode')
+  sendMessageBackground.classList.remove('dark-mode')
   sendFooter.classList.remove('dark-mode')
   sendFooterIconSmile.classList.remove('dark-mode')
   sendFooterIconPaperClip.classList.remove('dark-mode')
