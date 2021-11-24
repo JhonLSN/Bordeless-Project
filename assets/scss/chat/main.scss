@@ -882,7 +882,7 @@
           }
 
           &__status {
-            margin-right: 646px;
+            margin-right: 608px;
             &-name {
               color: #08024b;
               transition: all ease 0.6s;
@@ -1052,6 +1052,26 @@
         transition: all ease 0.6s;
 
         &__support {
+          &__navigation {
+            &__status {
+              margin-right: 680px;
+              width: 20%;
+            }
+          }
+
+          &__messege {
+            height: 77.7vh;
+          }
+
+          &__footer {
+            padding: 7px 15px;
+            & input {
+              width: 86%;
+            }
+          }
+        }
+
+        &__new-user {
           &__navigation {
             &__status {
               margin-right: 680px;
