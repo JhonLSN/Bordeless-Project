@@ -1505,3 +1505,22 @@
     }
   }
 }
+
+@media screen and (min-width: 1400px) {
+  .main {
+    &__wrapper {
+
+      &__abode {
+        width: 66%;
+
+        &__ilustration {
+          & img {
+            width: 85%;
+            margin-left: 45px;
+            margin-top: 20px;
+          }
+        }
+      }
+    }
+  }
+}
