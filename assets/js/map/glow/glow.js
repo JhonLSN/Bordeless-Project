@@ -22,6 +22,24 @@ btnGlow.addEventListener('click', () => {
   navIconExit.classList.remove('dark-mode')
   navTextExit.classList.remove('dark-mode')
 
+  // Places Variables
+  placesBackground.classList.remove('dark-mode')
+  placesTitle.classList.remove('dark-mode')
+  placesPlane.classList.remove('dark-mode')
+  placesBank.classList.remove('dark-mode')
+  placesEmail.classList.remove('dark-mode')
+  placesSchool.classList.remove('dark-mode')
+  placesFarmacy.classList.remove('dark-mode')
+  placesHospital.classList.remove('dark-mode')
+  placesChurch.classList.remove('dark-mode')
+  placesConstruction.classList.remove('dark-mode')
+  placesWrench.classList.remove('dark-mode')
+  placesShopping.classList.remove('dark-mode')
+  placesGraduation.classList.remove('dark-mode')
+
+  // Graphic Variable
+  graphicBackground.classList.remove('dark-mode')
+
   //PopUp Variables
   popUp.classList.remove('dark-mode')
   popUpAccont.classList.remove('dark-mode')
