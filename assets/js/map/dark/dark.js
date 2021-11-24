@@ -24,6 +24,24 @@ const navTextConfig = document.querySelector('.main__wrapper__navigation__sec-tw
 const navIconExit = document.querySelector('.main__wrapper__navigation__sec-two #list-02 #list-02__icon')
 const navTextExit = document.querySelector('.main__wrapper__navigation__sec-two #list-02 #list-02__paragraph')
 
+// Places 
+const placesBackground = document.querySelector('.main__wrapper__places')
+const placesTitle = document.querySelector('.main__wrapper__places__title')
+const placesPlane = document.querySelector('.main__wrapper__places__reference-point__plane')
+const placesBank = document.querySelector('.main__wrapper__places__reference-point__bank')
+const placesEmail = document.querySelector('.main__wrapper__places__reference-point__email')
+const placesSchool = document.querySelector('.main__wrapper__places__reference-point__school')
+const placesFarmacy = document.querySelector('.main__wrapper__places__reference-point__farmacy')
+const placesHospital = document.querySelector('.main__wrapper__places__reference-point__hospital')
+const placesChurch = document.querySelector('.main__wrapper__places__reference-point__church')
+const placesConstruction = document.querySelector('.main__wrapper__places__reference-point__construction')
+const placesWrench = document.querySelector('.main__wrapper__places__reference-point__wrench')
+const placesShopping = document.querySelector('.main__wrapper__places__reference-point__shopping')
+const placesGraduation = document.querySelector('.main__wrapper__places__reference-point__graduation')
+
+// Graphics
+const graphicBackground = document.querySelector('.main__wrapper__graphic')
+
 // PopUp
 const popUp = document.querySelector('.popUp__wrapper__box')
 const popUpAccont = document.querySelector('.popUp__wrapper__box__navigation__list-1')
@@ -59,6 +77,24 @@ btnDark.addEventListener('click', () => {
   navTextConfig.classList.add('dark-mode')
   navIconExit.classList.add('dark-mode')
   navTextExit.classList.add('dark-mode')
+
+  // Places Variables
+  placesBackground
+  placesTitle.classList.add('dark-mode')
+  placesPlane.classList.add('dark-mode')
+  placesBank.classList.add('dark-mode')
+  placesEmail.classList.add('dark-mode')
+  placesSchool.classList.add('dark-mode')
+  placesFarmacy.classList.add('dark-mode')
+  placesHospital.classList.add('dark-mode')
+  placesChurch.classList.add('dark-mode')
+  placesConstruction.classList.add('dark-mode')
+  placesWrench.classList.add('dark-mode')
+  placesShopping.classList.add('dark-mode')
+  placesGraduation.classList.add('dark-mode')
+
+  // Graphic Variable
+  graphicBackground.classList.add('dark-mode')
 
   //PopUp Variables
   popUp.classList.add('dark-mode')
