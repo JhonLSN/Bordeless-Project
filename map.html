@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/img/bordeless.ico" type="image/x-icon">
+  <link id="homeScreen" rel="stylesheet" href="assets/scss/map/bundle.css">
+  <title>Mapa - Borderless</title>
+</head>
+
+<body> 
+  <div class="popUp"> 
+    <div class="popUp__wrapper">
+      <div class="popUp__wrapper__box">
+        <nav class="popUp__wrapper__box__navigation">
+          <ul class="popUp__wrapper__box__navigation__list">
+            <li class="popUp__wrapper__box__navigation__list-1">
+              <i class="fas fa-address-card"></i>
+              <p>Meus dados</p>
+            </li>
+            <li class="popUp__wrapper__box__navigation__list-2">
+              <i class="fas fa-map-marker-alt"></i>
+              <p>Endereços</p>
+            </li>
+            <a href="" target="_blank" class="popUp__wrapper__box__navigation__list-3">
+              <i class="fas fa-question-circle"></i>
+              <p>Ajuda</p>
+            </a>
+            <li class="popUp__wrapper__box__navigation__list-4">
+              <i class="fas fa-undo-alt"></i>
+              <p>Voltar</p>
+            </li>
+          </ul>
+        </nav>
+        <div class="popUp__wrapper__box__panel">
+          <div class="popUp__wrapper__box__panel__accont">
+            <div class="popUp__wrapper__box__panel__accont-name">
+              <p id="p1">Nome de usuário</p>
+              <p id="p2">Borderless USJT</p>
+            </div>
+            <div class="popUp__wrapper__box__panel__accont-phone">
+              <p id="p1">Número de telefone</p>
+              <p id="p2">+55*********24</p>
+            </div>
+            <div class="popUp__wrapper__box__panel__accont-email">
+              <p id="p1">E-mail</p>
+              <p id="p2">b*********@*****.com</p>
+            </div>
+            <div class="popUp__wrapper__box__panel__accont-password">
+              <p id="p1">Senha</p>
+              <p id="p2">**********</p>
+            </div>
+          </div>
+          <div class="popUp__wrapper__box__panel__address">
+            <div class="popUp__wrapper__box__panel__address-message">
+              <p id="p1">Infelizmente você ainda não possui endereços fixados.<br><br>Acesse: Casa > Buscar um novo
+                endereço > Adicionar como favoritos.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="dark">
+    <div class="dark__wrapper">
+      <i class="fas fa-moon"></i>
+    </div>
+  </div>
+  <div class="glow">
+    <div class="glow__wrapper">
+      <i class="fas fa-sun"></i>
+    </div>
+  </div>
+  <header class="header">
+    <div class="header__wrapper">
+      <div class="header__wrapper__logo" title="Bordeless">
+        <img src="assets/img/bordeless.png" alt="Bordeless Logo">
+        <h1 class="header__wrapper__logo-name">BETA</h1>
+      </div>
+      <div class="header__wrapper__input">
+        <input type="text" class="header__wrapper__input-search" placeholder="Pesquisar pessoas e conversas">
+        <i class="fas fa-search" id="input"></i>
+      </div>
+      <div class="header__wrapper__user">
+        <div class="header__wrapper__user-icon">
+          <i class="far fa-user"></i>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="main__wrapper">
+      <section class="main__wrapper__navigation">
+        <nav class="main__wrapper__navigation__sec">
+          <ul class="main__wrapper__navigation__sec-one">
+            <a href="homeScreen.html" id="list-01">
+              <i id="list-01__icon" class="fas fa-home"></i>
+              <p id="list-01__paragraph">Casas</p>
+            </a>
+            <a href="chat.html" id="list-02">
+              <i id="list-02__icon" class="fas fa-envelope"></i>
+              <p id="list-02__paragraph">Chat</p>
+            <a>
+            <ul id="list-03">
+              <i id="list-03__icon" class="fas fa-map-marked-alt"></i>
+              <p id="list-03__paragraph">Mapa</p>
+            </ul>
+          </ul>
+          <ul class="main__wrapper__navigation__sec-two">
+            <li id="list-01">
+              <i id="list-01__icon" class="fas fa-cog"></i>
+              <p id="list-01__paragraph">Config</p>
+            </li>
+            <a href="login.html" id="list-02">
+              <i id="list-02__icon" class="fas fa-sign-out-alt"></i>
+              <p id="list-02__paragraph">Sair</p>
+            </a>
+          </ul>
+        </nav>
+      </section>
+      <section class="main__wrapper__places">
+      </section>
+      <section class="main__wrapper__graphic">
+      </section>
+    </div>
+  </main>
+  <!-- JavaScript Links -->
+  <script src="https://kit.fontawesome.com/d5e65723a8.js" crossorigin="anonymous"></script>
+  <script src="assets/js/map/dark/dark.js"></script>
+  <script src="assets/js/map/glow/glow.js"></script>
+  <script src="assets/js/map/popUp/popUp.js"></script>
+</body>
+
+</html>
