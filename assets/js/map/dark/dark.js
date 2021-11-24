@@ -79,7 +79,7 @@ btnDark.addEventListener('click', () => {
   navTextExit.classList.add('dark-mode')
 
   // Places Variables
-  placesBackground
+  placesBackground.classList.add('dark-mode')
   placesTitle.classList.add('dark-mode')
   placesPlane.classList.add('dark-mode')
   placesBank.classList.add('dark-mode')
