@@ -40,6 +40,18 @@ btnGlow.addEventListener('click', () => {
   chatNewUserEraser.classList.remove('dark-mode')
   chatIconNew.classList.remove('dark-mode')
 
+  // Send Variables
+  sendNavigation.classList.remove('dark-mode')
+  sendPhoto.classList.remove('dark-mode')
+  sendNavName.classList.remove('dark-mode')
+  sendStatus.classList.remove('dark-mode')
+  sendIconSearch.classList.remove('dark-mode')
+  sendIconEllipsis.classList.remove('dark-mode')
+  sendFooter.classList.remove('dark-mode')
+  sendFooterIconSmile.classList.remove('dark-mode')
+  sendFooterIconPaperClip.classList.remove('dark-mode')
+  sendFooterIconSend.classList.remove('dark-mode')
+
   //PopUp Variables
   popUp.classList.remove('dark-mode')
   popUpAccont.classList.remove('dark-mode')

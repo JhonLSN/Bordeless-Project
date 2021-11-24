@@ -42,6 +42,18 @@ const chatNewUserTime = document.querySelector('.main__wrapper__chat__user-erase
 const chatNewUserEraser = document.querySelector('.main__wrapper__chat__user-eraser')
 const chatIconNew = document.querySelector('.new-chat__wrapper')
 
+// Send
+const sendNavigation = document.querySelector('.main__wrapper__send__support__navigation')
+const sendPhoto = document.querySelector('.main__wrapper__send__support__navigation-photo')
+const sendNavName = document.querySelector('.main__wrapper__send__support__navigation__status-name')
+const sendStatus = document.querySelector('.main__wrapper__send__support__navigation__status-situation')
+const sendIconSearch = document.querySelector('.search-icon')
+const sendIconEllipsis = document.querySelector('.ellipsis-icon')
+const sendFooter = document.querySelector('.main__wrapper__send__support__footer')
+const sendFooterIconSmile = document.querySelector('.smile-icon')
+const sendFooterIconPaperClip = document.querySelector('.paperclip-icon')
+const sendFooterIconSend = document.querySelector('.send-icon')
+
 // PopUp
 const popUp = document.querySelector('.popUp__wrapper__box')
 const popUpAccont = document.querySelector('.popUp__wrapper__box__navigation__list-1')
@@ -96,6 +108,18 @@ btnDark.addEventListener('click', () => {
   chatNewUserTime.classList.add('dark-mode')
   chatNewUserEraser.classList.add('dark-mode')
   chatIconNew.classList.add('dark-mode')
+
+  // Send 
+  sendNavigation.classList.add('dark-mode')
+  sendPhoto.classList.add('dark-mode')
+  sendNavName.classList.add('dark-mode')
+  sendStatus.classList.add('dark-mode')
+  sendIconSearch.classList.add('dark-mode')
+  sendIconEllipsis.classList.add('dark-mode')
+  sendFooter.classList.add('dark-mode')
+  sendFooterIconSmile.classList.add('dark-mode')
+  sendFooterIconPaperClip.classList.add('dark-mode')
+  sendFooterIconSend.classList.add('dark-mode')
 
   //PopUp Variables
   popUp.classList.add('dark-mode')
