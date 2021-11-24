@@ -27,41 +27,152 @@ placesPlane.addEventListener('click', () => {
 })
 
 placesBank.addEventListener('click', () => {
-  alert('teste')
-})
-
-placesEmail.addEventListener('click', () => {
-  alert('teste')
-})
-
-placesSchool.addEventListener('click', () => {
-  alert('teste')
-})
-
-placesFarmacy.addEventListener('click', () => {
-  alert('teste')
-})
-
-placesHospital.addEventListener('click', () => {
-  alert('teste')
-})
-
-placesChurch.addEventListener('click', () => {
-  alert('teste')
+  graphicIlustration.style.display = 'none'
+  graphicPlane.style.display = 'none'
+  graphicBank.style.display = 'block'
+  graphicConstruction.style.display = 'none'
+  graphicEmail.style.display = 'none'
+  graphicSchool.style.display = 'none'
+  graphicFarmacy.style.display = 'none'
+  graphicHospital.style.display = 'none'
+  graphicChurch.style.display = 'none'
+  graphicWrench.style.display = 'none'
+  graphicShopping.style.display = 'none'
+  graphicGraduation.style.display = 'none'
 })
 
 placesConstruction.addEventListener('click', () => {
-  alert('teste')
+  graphicIlustration.style.display = 'none'
+  graphicPlane.style.display = 'none'
+  graphicBank.style.display = 'none'
+  graphicConstruction.style.display = 'block'
+  graphicEmail.style.display = 'none'
+  graphicSchool.style.display = 'none'
+  graphicFarmacy.style.display = 'none'
+  graphicHospital.style.display = 'none'
+  graphicChurch.style.display = 'none'
+  graphicWrench.style.display = 'none'
+  graphicShopping.style.display = 'none'
+  graphicGraduation.style.display = 'none'
 })
 
+placesEmail.addEventListener('click', () => {
+  graphicIlustration.style.display = 'none'
+  graphicPlane.style.display = 'none'
+  graphicBank.style.display = 'none'
+  graphicConstruction.style.display = 'none'
+  graphicEmail.style.display = 'block'
+  graphicSchool.style.display = 'none'
+  graphicFarmacy.style.display = 'none'
+  graphicHospital.style.display = 'none'
+  graphicChurch.style.display = 'none'
+  graphicWrench.style.display = 'none'
+  graphicShopping.style.display = 'none'
+  graphicGraduation.style.display = 'none'
+})
+
+placesSchool.addEventListener('click', () => {
+  graphicIlustration.style.display = 'none'
+  graphicPlane.style.display = 'none'
+  graphicBank.style.display = 'none'
+  graphicConstruction.style.display = 'none'
+  graphicEmail.style.display = 'none'
+  graphicSchool.style.display = 'block'
+  graphicFarmacy.style.display = 'none'
+  graphicHospital.style.display = 'none'
+  graphicChurch.style.display = 'none'
+  graphicWrench.style.display = 'none'
+  graphicShopping.style.display = 'none'
+  graphicGraduation.style.display = 'none'
+})
+
+placesFarmacy.addEventListener('click', () => {
+  graphicIlustration.style.display = 'none'
+  graphicPlane.style.display = 'none'
+  graphicBank.style.display = 'none'
+  graphicConstruction.style.display = 'none'
+  graphicEmail.style.display = 'none'
+  graphicSchool.style.display = 'none'
+  graphicFarmacy.style.display = 'block'
+  graphicHospital.style.display = 'none'
+  graphicChurch.style.display = 'none'
+  graphicWrench.style.display = 'none'
+  graphicShopping.style.display = 'none'
+  graphicGraduation.style.display = 'none'
+})
+
+placesHospital.addEventListener('click', () => {
+  graphicIlustration.style.display = 'none'
+  graphicPlane.style.display = 'none'
+  graphicBank.style.display = 'none'
+  graphicConstruction.style.display = 'none'
+  graphicEmail.style.display = 'none'
+  graphicSchool.style.display = 'none'
+  graphicFarmacy.style.display = 'none'
+  graphicHospital.style.display = 'block'
+  graphicChurch.style.display = 'none'
+  graphicWrench.style.display = 'none'
+  graphicShopping.style.display = 'none'
+  graphicGraduation.style.display = 'none'
+})
+
+placesChurch.addEventListener('click', () => {
+  graphicIlustration.style.display = 'none'
+  graphicPlane.style.display = 'none'
+  graphicBank.style.display = 'none'
+  graphicConstruction.style.display = 'none'
+  graphicEmail.style.display = 'none'
+  graphicSchool.style.display = 'none'
+  graphicFarmacy.style.display = 'none'
+  graphicHospital.style.display = 'none'
+  graphicChurch.style.display = 'block'
+  graphicWrench.style.display = 'none'
+  graphicShopping.style.display = 'none'
+  graphicGraduation.style.display = 'none'
+})
+
+
 placesWrench.addEventListener('click', () => {
-  alert('teste')
+  graphicIlustration.style.display = 'none'
+  graphicPlane.style.display = 'none'
+  graphicBank.style.display = 'none'
+  graphicConstruction.style.display = 'none'
+  graphicEmail.style.display = 'none'
+  graphicSchool.style.display = 'none'
+  graphicFarmacy.style.display = 'none'
+  graphicHospital.style.display = 'none'
+  graphicChurch.style.display = 'none'
+  graphicWrench.style.display = 'block'
+  graphicShopping.style.display = 'none'
+  graphicGraduation.style.display = 'none'
 })
 
 placesShopping.addEventListener('click', () => {
-  alert('teste')
+  graphicIlustration.style.display = 'none'
+  graphicPlane.style.display = 'none'
+  graphicBank.style.display = 'none'
+  graphicConstruction.style.display = 'none'
+  graphicEmail.style.display = 'none'
+  graphicSchool.style.display = 'none'
+  graphicFarmacy.style.display = 'none'
+  graphicHospital.style.display = 'none'
+  graphicChurch.style.display = 'none'
+  graphicWrench.style.display = 'none'
+  graphicShopping.style.display = 'block'
+  graphicGraduation.style.display = 'none'
 })
 
 placesGraduation.addEventListener('click', () => {
-  alert('teste')
+  graphicIlustration.style.display = 'none'
+  graphicPlane.style.display = 'none'
+  graphicBank.style.display = 'none'
+  graphicConstruction.style.display = 'none'
+  graphicEmail.style.display = 'none'
+  graphicSchool.style.display = 'none'
+  graphicFarmacy.style.display = 'none'
+  graphicHospital.style.display = 'none'
+  graphicChurch.style.display = 'none'
+  graphicWrench.style.display = 'none'
+  graphicShopping.style.display = 'none'
+  graphicGraduation.style.display = 'block'
 })
