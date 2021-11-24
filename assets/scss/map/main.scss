@@ -1252,5 +1252,19 @@
 
 // Responsive for notebook with size diferents
 @media screen and (min-width: 1400px) {
-  // Code Here
+  .main {
+    &__wrapper {
+
+      &__graphic {
+        width: 66%;
+
+        &__ilustration {
+          & img {
+            width: 68%;
+            margin-left: 120px;
+          }
+        }
+      }
+    }
+  }
 }
