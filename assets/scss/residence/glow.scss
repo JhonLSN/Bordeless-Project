@@ -1,0 +1,43 @@
+.glow {  
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  transform: scale(1);
+  cursor: pointer;
+  z-index: 1;
+  transition: all ease 0.3s;
+  display: none;
+  opacity: 0;
+
+  &:hover {
+    & .glow__wrapper{
+      transition: all ease 0.6s;
+      background-color: #FFF;
+      border: 1px solid #343232;
+      transition: all ease 0.6s;
+
+      & i{
+        color: #343232;
+        transition: all ease 0.6s;
+      }
+    }
+  }
+
+  &__wrapper {
+    height: 50px;
+    background: #343232;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border: 1px solid #343232;
+    transition: all ease 0.6s;
+
+    & i {
+      font-size: 1.5rem;
+      color: #fff700;
+      transition: all ease 0.6s;
+    }
+  }
+}
