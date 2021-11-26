@@ -1,9 +1,13 @@
-var mainUser = document.querySelector('.main-finish')
-var loadUser = document.querySelector('.load');
+var mainFinish = document.querySelector('.main-finish')
+var loadFinish = document.querySelector('.load');
+var darkFinish = document.querySelector('.dark');
+var glowFinish = document.querySelector('.glow');
 
 // Determinar em quanto tempo 
 let time = setTimeout(()=> {
-  loadUser.style.display = 'none'
-  mainUser.style.display = 'block'
+  loadFinish.style.display = 'none'
+  mainFinish.style.display = 'block'
+  darkFinish.style.opacity = '1'
+  glowFinish.style.opacity = '1'
 }, 1500)
 
