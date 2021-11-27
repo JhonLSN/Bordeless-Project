@@ -1,9 +1,13 @@
-var mainUser = document.querySelector('.main-residence')
-var loadUser = document.querySelector('.load');
+var mainResidence = document.querySelector('.main-residence')
+var loadResidence = document.querySelector('.load');
+var darkResidence = document.querySelector('.dark');
+var glowResidence = document.querySelector('.glow');
 
 // Determinar em quanto tempo 
 let time = setTimeout(()=> {
-  loadUser.style.display = 'none'
-  mainUser.style.display = 'block'
+  loadResidence.style.display = 'none'
+  mainResidence.style.display = 'block'
+  darkResidence.style.opacity = '1'
+  glowResidence.style.opacity = '1'
 }, 1500)
 

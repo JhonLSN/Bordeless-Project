@@ -16,7 +16,7 @@ btnRegister.addEventListener('click', () =>{
     return; 
   }else{
     check.innerHTML = 'Usuário cadastrado com sucesso'
-    check.style.color ='green'
+    check.style.color ='#57e346'
     user.value = ''
     email.value = ''
     password.value = ''
