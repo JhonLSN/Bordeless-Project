@@ -1,9 +1,13 @@
-var mainUser = document.querySelector('.main-start')
-var loadUser = document.querySelector('.load');
+var mainStart = document.querySelector('.main-start')
+var loadStart = document.querySelector('.load');
+var darkStart = document.querySelector('.dark');
+var glowStart = document.querySelector('.glow');
 
 // Determinar em quanto tempo 
 let time = setTimeout(()=> {
-  loadUser.style.display = 'none'
-  mainUser.style.display = 'block'
+  loadStart.style.display = 'none'
+  mainStart.style.display = 'block'
+  darkStart.style.opacity = '1'
+  glowStart.style.opacity = '1'
 }, 1500)
 
