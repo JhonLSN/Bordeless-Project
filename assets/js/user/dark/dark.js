@@ -24,6 +24,23 @@ btnDark.addEventListener('click', () => {
   mainUserCheck.classList.add('dark-mode')
   mainUserAcces.classList.add('dark-mode')
 
+  if (mainUserTitle.className !== 'main-user__wrapper__authentication__title') {
+    optionPlane.addEventListener('click', () => {
+      plane.style.background = '#90e0ef'
+      planeIcon.style.color = '#495057'
+      native.style.background = '#495057'
+      nativeIcon.style.color = '#90e0ef'
+    })
+
+    optionNative.addEventListener('click', () => {
+      native.style.background = '#90e0ef'
+      nativeIcon.style.color = '#495057'
+      plane.style.background = '#495057'
+      planeIcon.style.color = '#90e0ef'
+
+    })
+  }
+
   btnDark.style.display = 'none'
   btnGlow.style.display = 'block'
 })
