@@ -1,4 +1,4 @@
-var mainFinish = document.querySelector('.main-finish')
+var mainFinish = document.querySelector('.main')
 var loadFinish = document.querySelector('.load');
 var darkFinish = document.querySelector('.dark');
 var glowFinish = document.querySelector('.glow');
