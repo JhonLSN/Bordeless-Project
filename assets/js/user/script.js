@@ -3,13 +3,13 @@ const btnUser = document.querySelector('.main-user__wrapper__authentication__ace
 const optionPlane = document.querySelector('.main-user__wrapper__authentication__whatUser-traveler');
 const optionNative = document.querySelector('.main-user__wrapper__authentication__whatUser-native');
 
-const plane = document.querySelector('#plane');
-const planeIcon = document.querySelector('#plane i')
+const plane = document.querySelector('.plane');
+const planeIcon = document.querySelector('.plane i')
 
-const native = document.querySelector('#native');
-const nativeIcon = document.querySelector('#native i')
+const native = document.querySelector('.native');
+const nativeIcon = document.querySelector('.native i')
 
-const check = document.querySelector('#check')
+const check = document.querySelector('.check')
 
 optionPlane.addEventListener('click', () => {
   plane.style.background = '#08024b'

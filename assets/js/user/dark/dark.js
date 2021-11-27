@@ -11,7 +11,6 @@ const mainUserNativeIcon = document.querySelector('.main-user__wrapper__authenti
 const mainUserNativeParagraph = document.querySelector('.main-user__wrapper__authentication__whatUser-native p')
 const mainUserCheck = document.querySelector('.check')
 const mainUserAcces = document.querySelector('.main-user__wrapper__authentication__acess')
-const mainUserCreatedAccont = document.querySelector('.main-user__wrapper__authentication__createAccont')
 
 btnDark.addEventListener('click', () => {
   // Main Variables 
@@ -24,7 +23,6 @@ btnDark.addEventListener('click', () => {
   mainUserNativeParagraph.classList.add('dark-mode')
   mainUserCheck.classList.add('dark-mode')
   mainUserAcces.classList.add('dark-mode')
-  mainUserCreatedAccont.classList.add('dark-mode')
 
   btnDark.style.display = 'none'
   btnGlow.style.display = 'block'
