@@ -1,6 +1,13 @@
 .main-register {
   width: 100%;
+  height: 100vh;
   display: none;
+  transition: all ease 0.6s;
+
+  &.dark-mode {
+    background-color: #495057;
+    transition: all ease 0.6s;
+  }
 
   .main-register__wrapper {
     display: flex;
@@ -20,6 +27,11 @@
         color: #0a3b6e;
         transition: all ease 0.6s;
       }
+
+      &.dark-mode {
+        color: #90e0ef;
+        transition: all ease 0.6s;
+      }
     }
 
     &__authentication {
@@ -34,6 +46,12 @@
         font-size: 50px;
         margin-top: 30px;
         margin-bottom: 50px;
+        transition: all ease 0.6s;
+
+        &.dark-mode {
+          color: #90e0ef;
+          transition: all ease 0.6s;
+        }
       }
 
       &__user {
@@ -46,6 +64,12 @@
           font-size: 1.5rem;
           left: 10px;
           color: #08024b;
+          transition: all ease 0.6s;
+
+          &.dark-mode {
+            color: #90e0ef;
+            transition: all ease 0.6s;
+          }
         }
 
         &-input {
@@ -65,6 +89,23 @@
 
           &::placeholder{
             color: #08024b;
+          }
+
+          &.dark-mode {
+            background-color: #212529;
+            border: none;
+            color: #90e0ef;
+            transition: all ease 0.6s;
+
+            &::placeholder {
+              color: #90e0ef;
+              transition: all ease 0.6s;
+            }
+
+            &:focus {
+              border-radius: 10px;
+              transition: all ease 0.6s;
+            }
           }
         }
       }
@@ -79,6 +120,12 @@
           font-size: 1.5rem;
           left: 10px;
           color: #08024b;
+          transition: all ease 0.6s;
+
+          &.dark-mode {
+            color: #90e0ef;
+            transition: all ease 0.6s;
+          }
         }
 
         &-input {
@@ -98,6 +145,23 @@
 
           &::placeholder{
             color: #08024b;
+          }
+
+          &.dark-mode {
+            background-color: #212529;
+            border: none;
+            color: #90e0ef;
+            transition: all ease 0.6s;
+
+            &::placeholder {
+              color: #90e0ef;
+              transition: all ease 0.6s;
+            }
+
+            &:focus {
+              border-radius: 10px;
+              transition: all ease 0.6s;
+            }
           }
         }
       }
@@ -112,6 +176,12 @@
           font-size: 1.5rem;
           left: 10px;
           color: #08024b;
+          transition: all ease 0.6s;
+
+          &.dark-mode {
+            color: #90e0ef;
+            transition: all ease 0.6s;
+          }
         }
 
         &-input {
@@ -131,6 +201,23 @@
 
           &::placeholder{
             color: #08024b;
+          }
+
+          &.dark-mode {
+            background-color: #212529;
+            border: none;
+            color: #90e0ef;
+            transition: all ease 0.6s;
+
+            &::placeholder {
+              color: #90e0ef;
+              transition: all ease 0.6s;
+            }
+
+            &:focus {
+              border-radius: 10px;
+              transition: all ease 0.6s;
+            }
           }
         }
       }
@@ -144,6 +231,12 @@
           font-size: 1.5rem;
           left: 10px;
           color: #08024b;
+          transition: all ease 0.6s;
+
+          &.dark-mode {
+            color: #90e0ef;
+            transition: all ease 0.6s;
+          }
         }
 
         &-input {
@@ -164,10 +257,27 @@
           &::placeholder{
             color: #08024b;
           }
+
+          &.dark-mode {
+            background-color: #212529;
+            border: none;
+            color: #90e0ef;
+            transition: all ease 0.6s;
+
+            &::placeholder {
+              color: #90e0ef;
+              transition: all ease 0.6s;
+            }
+
+            &:focus {
+              border-radius: 10px;
+              transition: all ease 0.6s;
+            }
+          }
         }
       }
 
-      & #check{
+      & .check{
         color: #08024b;
         margin-top: 10px;
       }

@@ -3,7 +3,7 @@ const user = document.querySelector('.main-register__wrapper__authentication__us
 const email = document.querySelector('.main-register__wrapper__authentication__email-input');
 const password = document.querySelector('.main-register__wrapper__authentication__password-input');
 const passwordConfirm = document.querySelector('.main-register__wrapper__authentication__password-confirm-input');
-const check = document.querySelector('#check')
+const check = document.querySelector('.check')
 
 btnRegister.addEventListener('click', () =>{
   if(user.value === '' || email.value === '' || password.value === '' || passwordConfirm === ''){
