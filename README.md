@@ -35,8 +35,6 @@ Este projeto foi feito com as seguintes tecnologias:
 - API ViaCep
 - API Google Maps
 
-<h2 align="center">Gostou? Acesse o projeto:</h2>
-
 <p align="center">
   <a href="https://jhonlsn-github.netlify.app/home.html" target="_blank">
     <img src="https://res.cloudinary.com/lukemorales/image/upload/v1599785319/readme_logos/demo_on_netlify_umjmch.png" alt="Demo on Netlify" title="Demo on Netlify">
