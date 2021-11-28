@@ -25,3 +25,14 @@ Nela contêm os recursos de:
 - Visualização de moradias conforme o mecanismo de busca. 
 - Visualização de pontos de referências através do mapa.
 - Visualização de perfil nas configurações.
+
+## :hammer: Tecnologias
+Este projeto foi feito com as seguintes tecnologias:
+- HTML5
+- CSS3
+- JavaScript
+- SASS
+- API ViaCep
+- API Google Maps
+
+
