@@ -41,4 +41,4 @@ Este projeto foi feito com as seguintes tecnologias:
   </a>
 <p/>
 
-<p align="center">Login: BorderlessAdmin<br>Senha: Admin</p>
+<p align="center">Login: BorderlessAdmin<br>Senha: admin</p>
