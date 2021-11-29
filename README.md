@@ -1,7 +1,7 @@
 <h1 align="center">Borderless</h1>
 
 <p align="center">
-  <a href="#">Sobre</a>
+  <a href="#:book:">Sobre</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#">Tecnologias</a>
   &nbsp;&nbsp;&nbsp;
