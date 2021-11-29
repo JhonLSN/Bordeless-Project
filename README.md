@@ -3,7 +3,7 @@
 <p align="center">
   <a href="#book-sobre">Sobre</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#">Tecnologias</a>
+  <a href="#hammer-tecnologias">Tecnologias</a>
   &nbsp;&nbsp;&nbsp;
 <p>
 
